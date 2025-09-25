@@ -1,0 +1,30 @@
+{
+  "shapes": [
+    {
+      "nom": "Carré",
+      "formula": "c * c"
+    },
+    {
+      "nom": "Losange",
+      "formula": "( L * l ) / 2"
+    },
+    {
+      "nom": "Trapèze",
+      "formula": "( ( b + B ) * h ) / 2"
+    }
+  ],
+  "polygons": [
+    {
+      "nom": "Cube",
+      "formula": "c * c * c",
+    }
+    {
+      "nom": "Prisme droit",
+      "formula": "( ( l * L ) / 2 ) * h"
+
+    }
+
+
+  ]
+}
+
