@@ -11,19 +11,23 @@
     {
       "nom": "Trapèze",
       "formula": "( ( b + B ) * h ) / 2"
-    }
-  ],
-  "polygons": [
+    },
     {
       "nom": "Cube",
-      "formula": "c * c * c",
-    }
+      "formula": "c * c * c"
+    },
     {
       "nom": "Prisme droit",
       "formula": "( ( l * L ) / 2 ) * h"
-
+    },
+    {
+      "nom": "Cercle",
+      "formula": "π * r * r"
+    },
+    {
+      "nom": "Sphère",
+      "formula": "(r * r * r * π) * ( 4 / 3 )"
     }
-
 
   ]
 }
