@@ -2,7 +2,7 @@ import json
 import re, math
 from pathlib import Path
 
-from tools import checkIntBetweenXandY
+from tools import checkIntBetweenXandY, checkIntPos, checkFLoatPos
 
 
 def polygon_calc():
@@ -14,7 +14,7 @@ def polygon_calc():
 
     shapes = data["shapes"]
 
-    print("De quelle forme voulez-vous remplire la formule ;")
+    print("De quelle forme voulez-vous compléter la formule :")
     for i, shape in enumerate(shapes, start=1):
         print(f"{i}. {shape['nom']}")
 
@@ -33,13 +33,9 @@ def treat_formula(formula: str):
     values = {"π": math.pi}
     for var in variables:
         if var not in values:
-            while True:
-                try:
-                    val = float(input(f"Donnez une valeur pour {var} : "))
-                    values[var] = val
-                    break
-                except ValueError:
-                    print("Entrée invalide, veuillez recommencer.")
+            print(f"Entrez une valeur pour {var}.")
+            values[var] = checkFLoatPos()
+
 
     # Mise à éxécution de la formule
     try:
