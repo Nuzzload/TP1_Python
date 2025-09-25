@@ -1,0 +1,8 @@
+{
+  "shapes": [
+    {
+      "nom": "Mettre ici le nom de la forme",
+      "formula": "mettre ici la formule en respectant le format suivant : ( c * c ) / 2"
+    }
+  ]
+}
