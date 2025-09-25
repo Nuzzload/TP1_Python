@@ -17,7 +17,7 @@ def checkIntPos():
         userInput = input("Entrez un entier positif")
         try:
             value=int(userInput)
-            if value >= 0:
+            if value > 0:
                 return value
             else:
                 print("Votre choix doit être une valeur positive")
