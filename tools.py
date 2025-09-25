@@ -35,3 +35,13 @@ def checkFLoatPos():
                 print("Votre choix doit être une valeur positive")
         except ValueError:
             print("Votre choix doit être un flottant")
+
+def checkOuiOuNon(question) -> bool:
+    while 1:
+        reponse = input(question + "Oui ou non ?").strip().lower()
+        if reponse in ["o", "oui", "y", "yes"]:
+            return True
+        elif reponse in ["n", "non", "no"]:
+            return False
+        else:
+            print("Veuillez rentrer une réponse valide.")
