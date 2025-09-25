@@ -36,7 +36,6 @@ def treat_formula(formula: str):
             print(f"Entrez une valeur pour {var}.")
             values[var] = checkFLoatPos()
 
-
     # Mise à éxécution de la formule
     try:
         result = eval(formula, {}, values)

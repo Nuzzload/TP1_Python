@@ -13,10 +13,10 @@ def sum_factor():
     for x in nombres:
         factoriel *= x
 
-    somme_str = " + ".join(map(str, nombres))
-    fact_str = " * ".join(map(str, nombres))
+    somme_string = " + ".join(map(str, nombres))
+    factoriel_string = " * ".join(map(str, nombres))
 
-    print(f"{somme_str} = {somme}")
-    print(f"{somme} = {somme_str}")
-    print(f"{fact_str} = {factoriel}")
-    print(f"{factoriel} = {fact_str}")
+    print(f"{somme_string} = {somme}")
+    print(f"{somme} = {somme_string}")
+    print(f"{factoriel_string} = {factoriel}")
+    print(f"{factoriel} = {factoriel_string}")

@@ -29,7 +29,7 @@ def checkFLoatPos():
         userInput = input("Entrez un nombre flottant positif")
         try:
             value=float(userInput)
-            if value >= 0:
+            if value > 0:
                 return value
             else:
                 print("Votre choix doit être une valeur positive")
