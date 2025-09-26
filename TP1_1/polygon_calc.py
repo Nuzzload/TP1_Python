@@ -12,7 +12,7 @@ def polygon_calc():
     with open(chemin_json, 'r', encoding="utf-8") as f:
         data = json.load(f)
 
-    shapes = data["shapes"]
+    shapes = data["formules"]
 
     print("De quelle forme voulez-vous compléter la formule :")
     for i, shape in enumerate(shapes, start=1):
@@ -30,6 +30,7 @@ def treat_formula(formula: str):
     variables = sorted(set(re.findall(r"\b[a-zA-Z]\b", formula)))
 
     # Remplissage des valeurs par l'utilisateur
+    print(f"Formule à remplir = {formula}")
     values = {"π": math.pi}
     for var in variables:
         if var not in values:

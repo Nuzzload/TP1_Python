@@ -1,7 +1,7 @@
 {
-  "shapes": [
+  "formules": [
     {
-      "nom": "Mettre ici le nom de la forme",
+      "nom": "Mettre ici le nom de la forme et le type de formule (aire, volume...)",
       "formula": "mettre ici la formule en respectant le format suivant : ( c * c ) / 2"
     }
   ]

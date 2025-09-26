@@ -1,31 +1,31 @@
 {
-  "shapes": [
+  "formules": [
     {
-      "nom": "Carré",
+      "nom": "Aire Carré",
       "formula": "c * c"
     },
     {
-      "nom": "Losange",
+      "nom": "Aire Losange",
       "formula": "( L * l ) / 2"
     },
     {
-      "nom": "Trapèze",
+      "nom": "Aire Trapèze",
       "formula": "( ( b + B ) * h ) / 2"
     },
     {
-      "nom": "Cube",
+      "nom": "Volume Cube",
       "formula": "c * c * c"
     },
     {
-      "nom": "Prisme droit",
+      "nom": "Volume Prisme droit",
       "formula": "( ( l * L ) / 2 ) * h"
     },
     {
-      "nom": "Cercle",
+      "nom": "Aire Cercle",
       "formula": "π * r * r"
     },
     {
-      "nom": "Sphère",
+      "nom": "Volume Sphère",
       "formula": "(r * r * r * π) * ( 4 / 3 )"
     }
 
