@@ -48,3 +48,6 @@ def treat_formula(formula: str):
     print(f"Valeurs : {values}")
     print(f"Résultat = {result}")
     return result
+
+if __name__ == '__main__':
+    polygon_calc()

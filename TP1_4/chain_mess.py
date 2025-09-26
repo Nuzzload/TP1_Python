@@ -16,3 +16,7 @@ def chain_mess():
     print("Messages personalisés :")
     for ami in amis:
         print(f"Cher {ami}, {message}")
+
+
+if __name__ == '__main__':
+    chain_mess()

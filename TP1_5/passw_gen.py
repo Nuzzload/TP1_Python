@@ -36,3 +36,6 @@ def passwd_gen():
 
     password = ''.join(passwd_composition)
     print("Voici votre mot de passe : ", password)
+
+if __name__ == '__main__':
+    passwd_gen()

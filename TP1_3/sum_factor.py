@@ -20,3 +20,6 @@ def sum_factor():
     print(f"{somme} = {somme_string}")
     print(f"{factoriel_string} = {factoriel}")
     print(f"{factoriel} = {factoriel_string}")
+
+    if __name__ == '__main__':
+        sum_factor()
