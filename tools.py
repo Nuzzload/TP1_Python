@@ -38,7 +38,7 @@ def checkFLoatPos():
 
 def checkOuiOuNon(question) -> bool:
     while 1:
-        reponse = input(question + "Oui ou non ?").strip().lower()
+        reponse = input(question + " Oui ou non ?").strip().lower()
         if reponse in ["o", "oui", "y", "yes"]:
             return True
         elif reponse in ["n", "non", "no"]:
